@@ -44,8 +44,15 @@ Last-mile-connect/
 - UIDAI Aadhaar Demographic Update Data (2025)
 
 ## Phase 1: Data Exploration
-- Loaded UIDAI enrolment, biometric, and demographic datasets
-- Performed basic data validation and exploratory analysis
-- Established base metrics for enrolment and updates
+- Ingested and cleaned UIDAI enrolment, biometric, and demographic datasets
+- Standardized geography and time dimensions; removed duplicates
+- Generated district-month and pincode-level aggregates
+- Engineered core enrolment and update metrics
+- Produced validated processed datasets and baseline visualizations
 
+## Phase 2: Coverage Gap Analysis & Prioritization
+- Integrated enrolment data with district-level population estimates
+- Computed coverage rates, coverage gaps, and unreached population
+- Classified districts into intervention priority levels
+- Generated ranked priority districts and state-level gap insights
 
