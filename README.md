@@ -51,10 +51,12 @@ Reaching this "last mile" is critical for ensuring universal access to governmen
 The analysis relies on the following datasets:
 
 | Dataset | Description | Source |
-|---------|-------------|--------|
-| **UIDAI Enrollment Data** | Anonymized enrollment records including age, location (state/district/pincode), and date. | UIDAI / Hackathon Provided |
-| **Census 2011 Data** | District-level population statistics (projected to 2025 using 1.2% annual growth rate). | Government Census |
-| **Geospatial Data** | Latitude/Longitude coordinates for Pincodes. | Open Source Geo-Database |
+|--------|-------------|--------|
+| **UIDAI Enrolment Data** | District- and pincode-level records of **new Aadhaar enrolments**, segmented by age group and date (March–December 2025). | UIDAI (Hackathon Provided) |
+| **UIDAI Biometric Update Data** | Records of biometric updates by district, pincode, age group, and date, used to assess enrollment churn and operational friction. | UIDAI (Hackathon Provided) |
+| **UIDAI Demographic Update Data** | Records of demographic updates (e.g., name and address changes) by district, pincode, age group, and date, used as a proxy for mobility and population instability. | UIDAI (Hackathon Provided) |
+| **Census 2011 Population Data** | District-level population statistics from Census 2011, used as a **baseline reference** for estimating relative enrollment gaps and planning capacity. No direct claims of current population coverage are made. | Office of the Registrar General & Census Commissioner, India |
+| **Indian Pincode Dataset** | Official pincode-level dataset containing state, district, and geographic mappings, used for spatial aggregation and map visualizations. | data.gov.in |
 
 ---
 
