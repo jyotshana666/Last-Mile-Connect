@@ -56,3 +56,12 @@ Last-mile-connect/
 - Classified districts into intervention priority levels
 - Generated ranked priority districts and state-level gap insights
 
+## Phase 3: Clustering & Hotspot Identification
+- Performed pincode- and district-level clustering using geospatial and gap metrics
+- Identified last-mile hotspots and optimal mobile camp locations
+- Generated camp priority rankings, coverage estimates, and cost projections
+
+## Phase 4: Visualization & Executive Insights
+- Created executive dashboards summarizing coverage gaps and priorities
+- Visualized state, district, age-group, and camp deployment patterns
+- Produced budget and resource allocation insights for decision-makers
